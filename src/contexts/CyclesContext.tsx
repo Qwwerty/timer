@@ -1,7 +1,6 @@
 import { differenceInSeconds } from 'date-fns'
 import React, { createContext, useEffect, useReducer, useState } from 'react'
 import {
-  ActionTypes,
   addNewCycleAction,
   interruptCurrentCycleAction,
   markCurrentCycleAsFinishedAction,
